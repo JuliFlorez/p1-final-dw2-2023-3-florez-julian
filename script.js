@@ -110,7 +110,7 @@ fetch('./json/productos.json')
       // Ocultar el banner flotante después de 10 segundos
       setTimeout(() => {
         bannerContainer.style.display = 'none';
-      }, 10000); // 10000 milisegundos = 10 segundos
+      }, 1000); // 10000 milisegundos = 10 segundos.
     }
 
   })
