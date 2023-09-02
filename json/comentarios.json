@@ -1,0 +1,25 @@
+{
+  "comentarios": [
+    {
+      "id": 1,
+      "producto": "Notebook Gamer I5 8gb 256gb Ssd Rtx3050",
+      "review": "Esta notebook gamer es excelente. La tarjeta gráfica RTX 3050 funciona muy bien y me permite jugar juegos exigentes sin problemas. El procesador i5 también es muy rápido y la memoria RAM de 8GB y el SSD de 256GB aseguran que todo funcione sin problemas.",
+      "nombre": "Luna Herbon",
+      "calificacion": 100
+    },
+    {
+      "id": 2,
+      "producto": "Notebook Acer Ryzen 3 4gb 256gb Ssd",
+      "review": "Esta notebook es muy buena para el uso diario. El procesador Ryzen 3 es lo suficientemente rápido para navegar por internet y trabajar en documentos, y el SSD de 256GB permite un arranque rápido del sistema operativo. La única desventaja es que 4GB de RAM pueden ser un poco limitados para algunas tareas más exigentes.",
+      "nombre": "Julian Florez",
+      "calificacion": 95
+    },
+    {
+      "id": 3,
+      "producto": "Notebook Asus Ryzen 3 4gb RAM 64gb",
+      "review": "Esta notebook es bastante buena para el precio. El procesador Ryzen 3 es rápido y la pantalla es nítida y clara. El único problema es que solo tiene 4GB de RAM y 64GB de almacenamiento, lo que puede limitar su capacidad para manejar tareas más exigentes.",
+      "nombre": "Nicolas Bucceri",
+      "calificacion": 75
+    }
+  ]
+}

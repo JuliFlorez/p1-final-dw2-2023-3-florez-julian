@@ -1,0 +1,196 @@
+{
+    "productos" :[
+        {
+            "id": 1,
+            "nombre": "Notebook Gamer I5 8gb 256gb Ssd Rtx3050",
+            "precio": 2273.68,
+            "imagen": "assets/1.webp",
+            "descripcion": "Domina el juego: Con el procesador Intel Core i5-10300H de 10.ª generación, tu Nitro 5 está equipado con una potencia increíble.",
+            "categoria": "Notebook"
+        },
+        {
+            "id": 2,
+            "nombre": "Notebook Gamer Asus I7 8gb 512gb Ssd Rtx3050",
+            "precio": 2636.61,
+            "imagen": "assets/2.webp",
+            "descripcion": "Atrévete. Haz más mientras te desplazas. La nueva TUF Dash F15 ofrece una experiencia gaming avanzada en un chasis superdelgado.",
+            "categoria": "Notebook"
+        },
+        {
+            "id": 3,
+            "nombre": "Notebook Hp Celeron 4gb 128gb Ssd",
+            "precio": 867.44,
+            "imagen": "assets/3.webp",
+            "descripcion": "La notebook HP 15-DW1080LA posee un diseño elegante, liviano y portable para que la lleves con vos a donde sea. Epicamente Confiable.",
+            "categoria": "Notebook"
+        },
+        {
+            "id": 4,
+            "nombre": "Notebook Acer Ryzen 3 4gb 256gb Ssd",
+            "precio": 1275.69,
+            "imagen": "assets/4.webp",
+            "descripcion": "Con la línea Aspire 5 de Acer podrás experimentar un nuevo nivel de diseño y rendimiento, tanto para el uso cotidiano de la notebook.",
+            "categoria": "Notebook"
+        },
+        {
+            "id": 5,
+            "nombre": "Notebook Lenovo Ryzen 3 8gb Ram Ssd",
+            "precio": 1156.1,
+            "imagen": "assets/5.webp",
+            "descripcion": "Permanece conectado con lo que más importa gracias a la batería de larga duración y un diseño delgado y portátil de bisel con microbordes.",
+            "categoria": "Notebook"
+        },
+        {
+            "id": 6,
+            "nombre": "Notebook Asus Ryzen 3 4gb RAM 64gb",
+            "precio": 1169.82,
+            "imagen": "assets/6.webp",
+            "descripcion": "La Chromebook Asus CM5 es una notebook pensada para navegar, trabajar o estudiar online. Viene con Chrome OS: el sistema operativo rápido.",
+            "categoria": "Notebook"
+        },
+        {
+            "id": 7,
+            "nombre": "Notebook Gamer Msi I5 8gb 256gb Ssd Gtx1650",
+            "precio": 2046.87,
+            "imagen": "assets/7.webp",
+            "descripcion": "La Notebook Gamer MSI GF63 está pensada para juegos, diseño gráfico y tareas de edición avanzadas.",
+            "categoria": "Notebook"
+        },
+        {
+            "id": 8,
+            "nombre": "Notebook Computadora Portatil Oficina",
+            "precio": 1207.69,
+            "imagen": "assets/8.webp",
+            "descripcion": "Su procesador Intel Core i3-10110U y su memoria de 4GB se complementan para ofrecer un mayor rendimiento con un bajo consumo de energía.",
+            "categoria": "Notebook"
+        },
+        {
+            "id": 9,
+            "nombre": "Mouse Gamer Redragon Centrophorus2 M601",
+            "precio": 583.41,
+            "imagen": "assets/9.webp",
+            "descripcion": "Fue una tormenta. Fue la puerta de ingreso a los ratones gamers para cientos de miles de personas.",
+            "categoria": "Mouse"
+        },
+        {
+            "id": 10,
+            "nombre": "Mouse Gamer Redragon Storm Elite M988 Black",
+            "precio": 1141.27,
+            "imagen": "assets/10.webp",
+            "descripcion": "Más ágil, más rápido y más preciso que los demás, el Storm Elite está concebido para ser el mejor y lo consigue.",
+            "categoria": "Mouse"
+        },
+        {
+            "id": 11,
+            "nombre": "Mouse Gamer Logitech G Series G502 Hero",
+            "precio": 1858.87,
+            "imagen": "assets/11.webp",
+            "descripcion": "Diseñado para un desempeño avanzado en los juegos. G502 HERO cuenta con un sensor de juegos HERO 25K",
+            "categoria": "Mouse"
+        },
+        {
+            "id": 12,
+            "nombre": "Mouse inalámbrico Logitech G Series Lightspeed G305",
+            "precio": 1680.87,
+            "imagen": "assets/12.webp",
+            "descripcion": "Mouse inalámbrico para juegos LIGHTSPEED diseñado para un desempeño excelente con las innovaciones tecnológicas más recientes.",
+            "categoria": "Mouse"
+        },
+        {
+            "id": 13,
+            "nombre": "Mouse Razer DeathAdder Essential",
+            "precio": 1494.29,
+            "imagen": "assets/13.webp",
+            "descripcion": "Por más de una decada, la línea Razer DeathAdder ha sido un jugador principal en la arena global de esports.",
+            "categoria": "Mouse"
+        },
+        {
+            "id": 14,
+            "nombre": "Mouse Gamer HyperX Pulsefire Core RGB",
+            "precio": 469.80,
+            "imagen": "assets/14.webp",
+            "descripcion": "HyperX Pulsefire Core ™ ofrece lo esencial para los jugadores que buscan un ratón para juegos RGB sólido, cómodo y con cable.",
+            "categoria": "Mouse"
+        },
+        {
+            "id": 15,
+            "nombre": "Mouse Gamer Redragon Gainer M610 RED",
+            "precio": 386.43,
+            "imagen": "assets/15.webp",
+            "descripcion": "Lo que necesitas para competir, sin ornamentos triviales. El Gainer es un clásico ratón gamer, con seis botones.",
+            "categoria": "Mouse"
+        },
+        {
+            "id": 16,
+            "nombre": "Mouse Gamer Redragon Invader M719-RGB",
+            "precio": 556.36,
+            "imagen": "assets/16.webp",
+            "descripcion": "Nadie juega para perder. En la gama de juegos que va de los shooters en primera persona a los MOBA",
+            "categoria": "Mouse"
+        },
+        {
+            "id": 17,
+            "nombre": "Auricular c/mic Gamer Redragon H320W Lamia 2",
+            "precio": 1356.36,
+            "imagen": "assets/17.webp",
+            "descripcion": " Los auriculares Gamer Redragon H320W Lamia 2 son la elección perfecta para los amantes de los videojuegos.",
+            "categoria": "Auriculares"
+        },
+        {
+            "id": 18,
+            "nombre": "Auricular Genesis Neon 200 RGB Black - Red",
+            "precio": 1356.36,
+            "imagen": "assets/18.webp",
+            "descripcion": "Sumérgete en un mundo de colores y sonido con los auriculares Genesis Neon 200 RGB Black - Red",
+            "categoria": "Auriculares"
+        },
+        {
+            "id": 19,
+            "nombre": "Auricular Genesis Neon 750 RGB Black",
+            "precio": 1356.36,
+            "imagen": "assets/19.webp",
+            "descripcion": "Nadie juega para perder. En la gama de juegos que va desde los shooters en primera persona hasta los MOBA",
+            "categoria": "Auriculares"
+        },
+        {
+            "id": 20,
+            "nombre": "Auricular Genesis Radon 720 7.1 USB",
+            "precio": 1356.36,
+            "imagen": "assets/20.webp",
+            "descripcion": " Siente la inmersión total en tus juegos con los auriculares Genesis Radon 720 7.1 USB.",
+            "categoria": "Auriculares"
+        },
+        {
+            "id": 21,
+            "nombre": "Auricular Logitech H390 USB",
+            "precio": 1356.36,
+            "imagen": "assets/21.webp",
+            "descripcion": "Los auriculares Logitech H390 USB te ofrecen una comunicación clara y nítida en tus partidas y llamadas.",
+            "categoria": "Auriculares"
+        },
+        {
+            "id": 22,
+            "nombre": "Auricular c/mic Redragon ZEUS X H510 Pink RGB",
+            "precio": 1356.36,
+            "imagen": "assets/22.webp",
+            "descripcion": "Los auriculares Redragon ZEUS X H510 Pink RGB combinan estilo y rendimiento para satisfacer a los jugadores más exigentes.",
+            "categoria": "Auriculares"
+        },
+        {
+            "id": 23,
+            "nombre": "Auricular Logitech G335 Gaming White",
+            "precio": 1356.36,
+            "imagen": "assets/23.webp",
+            "descripcion": "Experimenta la verdadera pasión por el juego con los auriculares Logitech G335 Gaming White.",
+            "categoria": "Auriculares"
+        },
+        {
+            "id": 24,
+            "nombre": "Auricular Logitech G733 White RGB Inalámbrico",
+            "precio": 1356.36,
+            "imagen": "assets/24.webp",
+            "descripcion": "Libera tu juego con los auriculares Logitech G733 White RGB Inalámbrico.",
+            "categoria": "Auriculares"
+        }
+    ]
+}

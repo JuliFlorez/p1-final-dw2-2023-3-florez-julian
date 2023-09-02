@@ -1,0 +1,219 @@
+.inputindex{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+}
+.botones button{
+    margin-bottom: 1%;
+}
+.botonCarrito{
+    color: white;
+    text-decoration: none;
+}
+.botonCarrito:hover{
+    color: white;
+}
+.cuerpo-carrito{
+    padding: 1%;
+}
+.mensaje-carrito-vacio{
+    color: red;
+    padding: 10%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.banner-container {
+    width: 75%;
+    display: none;
+    position: fixed;
+    bottom: 40%;
+    right: 10%;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+.banner-container img{
+    width: 100%;
+}
+
+#contenedorDeProductos {
+    margin-bottom: 100px; 
+}
+h2{
+    text-align: center;
+}
+.precio{
+    text-align: center;
+    color: rgb(148, 214, 48);
+}
+.cards{
+    display: grid;
+    max-width: 75%;
+    gap: 30px;
+    margin-left: 2.75rem;
+}
+.mapa{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #42BFE7;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+form button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+footer img{
+    display: none;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 1px solid #42BFE7;
+}
+
+.formularioC{
+    margin-bottom: 5%;
+}
+
+.gracias-fondo{
+    background-color: rgb(178, 240, 86);
+}
+.gracias-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+.gracias-div a{
+    font-size: x-large;
+    margin-left: 40%;
+
+}
+
+@media (min-width: 421px) {
+    .cards{
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        gap: 30px;
+        margin: 10px;
+    }
+    .card{
+        width: 100%;
+    }
+    .mapa-formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .mapa{
+        width: 100%;
+    }
+    form{
+        margin-right: 40px;
+        margin-left: 40px;
+        background-color: #42BFE7;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+    }
+    form button{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 4%;
+    }
+    footer img{
+        display: none;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-top: 1px solid #42BFE7;
+    }
+}
+@media (min-width: 801px) {
+    .cards{
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        gap: 30px;
+        margin: 10px;
+    
+    }
+    .card{
+        width: 100%;
+    }
+    .mapa-formulario{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+        padding: 10px;
+    }
+    .titulo-local{
+        display: none;
+    }
+    .mapa{
+        width: 550px;
+    }
+    form{
+        background-color: #42BFE7;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+    }
+    form button{
+        margin-top: 25px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        padding: 4%;
+        justify-content: center;
+    }
+    footer img{
+        margin-top: 5%;
+        display: flex;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-top: none;
+        border-left: 1px solid #42BFE7;
+    }
+}

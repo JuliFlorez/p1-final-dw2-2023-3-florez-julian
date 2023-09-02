@@ -1,0 +1,28 @@
+{
+    "name": "Teraflops Components",
+    "short_name": "Teraflops",
+    "start_url": "./",
+    "scope": "./",
+    "description": "bienvenidos a Teraflops Components, una empresa dedicada a la venta de componentes",
+    "display": "standalone",
+    "background_color": "#42BFE7",
+    "theme_color": "#77D9F8",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "./assets/icons/48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "./assets/icons/144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "./assets/icons/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }

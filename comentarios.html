@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/Mesa de trabajo 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/icons/72.png" />
+    <link rel="apple-touch-icon" href="assets/icons/96.png" />
+    <link rel="apple-touch-icon" href="assets/icons/128.png" />
+    <link rel="apple-touch-icon" href="assets/icons/144.png" />
+    <link rel="apple-touch-icon" href="assets/icons/192.png" />
+    <link rel="apple-touch-icon" href="assets/icons/384.png" />
+    <link rel="apple-touch-icon" href="assets/icons/512.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>TeraFlops Components</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary bg-opacity-25">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/Mesa de trabajo 2.png" alt="Logo" width="200" height="48"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="comentarios.html">Comentarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Carrito.html">Carrito</a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h2>Reseñas de computadoras</h2>
+    <div id="reviews-container">
+    </div>
+    <div id="comentarios"></div>
+    <div class="mapa-formulario">
+        <form>
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" placeholder="Jose@hotmail.com">
+            <label for="Producto" class="form-label">Producto</label>
+            <input type="text" class="form-control" id="Producto" placeholder="GTX 1050">
+            <label for="numero">Calificacion</label>
+            <input type="number" class="form-control" name="numero" id="numero">
+            <label for="Nombre" class="form-label">Nombre Completo</label>
+            <input type="text" class="form-control" id="Nombre" placeholder="Jose Lopez">
+            <label for="comentario" class="form-label">Comentario</label>
+            <textarea class="form-control" id="comentariogrande"></textarea>
+            <button type="button" class="btn btn-primary" onclick="agregarComentario()">Enviar</button>
+        </form>
+        <h2 class="titulo-local">Local</h2>
+        <iframe class="mapa" id="local"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6567.366017391076!2d-58.44391050909699!3d-34.61217641206246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca13af9216e1%3A0x31409c54e9f91576!2sDistelec%20-%20Componentes%20Electr%C3%B3nicos!5e0!3m2!1ses-419!2sar!4v1669567974372!5m2!1ses-419!2sar"
+            width="550" height="350" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer class="bg-primary bg-opacity-25 justyf">
+        <img src="assets/Mesa de trabajo 2.png" alt="Logo" width="300" height="72">
+        <ul class="nav">
+            <li>
+                <a class="nav-link" href="https://www.instagram.com">Instagam</a>
+            </li>
+            <li>
+                <a class="nav-link" href="https://www.facebook.com">Facebook</a>
+            </li>
+            <li>
+                <a class="nav-link" href="https://www.tiktok.com">Tiktok</a>
+            </li>
+            <li>
+                <a class="nav-link" href="https://www.gmail.com">Email</a>
+            </li>
+            <li>
+                <a class="nav-link" href="https://www.youtube.com">YouTube</a>
+            </li>
+            <li>
+                <a class="nav-link" href="https://twitter.com">Twitter</a>
+            </li>
+        </ul>
+        <ul class="nav">
+            <li>
+                <a class="nav-link" href="#">
+                    Acerca
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">
+                    Ayuda/FAQ
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">
+                    Términos de Uso
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">
+                    Política de Privacidad
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">
+                    Aceptación de cookies
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">
+                    Contacto de prensa
+                </a>
+            </li>
+        </ul>
+        <ul class="nav">
+            <li>
+                <a class="nav-link" href="#">
+                    Crear cuenta
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">
+                    Acceder
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="scripts/scriptComentarios.js"></script>
+</body>
+
+
+</html>
